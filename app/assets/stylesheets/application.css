@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require jquery-ui
+ */
+
+ #container {
+  width: 500px;
+  height: 450px;
+  border: 2px solid purple;
+  margin: 50px auto;
+ }
+
+ #myVideo {
+  margin-left: 85px;
+  margin-top: 0px;
+  border: 5px solid purple;
+ }
+
+ h2 {
+  color: purple;
+  text-align: center;
+ }
+
+ #background {
+  background: url(background.gif) no-repeat;
+  width: 307px;
+  height: 79px;
+  margin: 0px auto;
+  padding: 20px 0 0 5px;
+  left: 4px;
+  top: 4px;
+ }
+
+ #slider {
+  background: url(slider.gif) no-repeat;
+  width: 289px;
+  height: 29px;
+  position: relative;
+  left: 2px;
+  top: 4px;
+  border: none;
+ }
+
+ #slider .ui-slider-handle {
+  background: url(handle.gif);
+  width: 24px;
+  height: 26px;
+  border: none;
+  top: 2px;
+ }
